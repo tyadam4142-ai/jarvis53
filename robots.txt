@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://this.jarvis53.dynamicrobotics53.com/sitemap.xml
