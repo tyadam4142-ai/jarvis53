@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jarvis53-control-plane",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-26",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jarvis53-shared-db",
+      "database_id": "70f82903-ef20-489d-b4bb-b378d2578eef",
+      "migrations_dir": "./migrations"
+    }
+  ],
+  "routes": [
+    {
+      "pattern": "53.jarvis53.dynamicrobotics53.com",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "PUBLIC_ORIGIN": "https://jarvis53.dynamicrobotics53.com",
+    "ADMIN_ORIGIN": "https://53.jarvis53.dynamicrobotics53.com",
+    "DEFAULT_MONTHLY_PRICE": "553",
+    "DEFAULT_ANNUAL_PRICE": "5530",
+    "DEFAULT_PAYMENT_INSTRUCTIONS": "Contact Dynamic Robotics for official payment instructions before paying.",
+    "OPENROUTER_MODEL": "z-ai/glm-5.3-flash",
+    "NVIDIA_MODEL": "meta/llama-3.1-8b-instruct",
+    "GEMINI_MODEL": "gemini-2.5-flash",
+    "CUSTOMER_DAILY_AI_LIMIT": "100"
+  }
+}

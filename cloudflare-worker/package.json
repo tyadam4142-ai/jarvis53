@@ -1,0 +1,16 @@
+{
+  "name": "jarvis53-cloudflare-control-plane",
+  "version": "2.9.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 migrations apply jarvis53-shared-db --remote",
+    "test": "node --test",
+    "predeploy": "npm test"
+  },
+  "devDependencies": {
+    "wrangler": "^4.34.0"
+  }
+}
