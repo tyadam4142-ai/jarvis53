@@ -1,0 +1,26 @@
+JARVIS 53 — Just A Rather Very Intelligent System
+Version 2.0.0 — Copyright (c) 2026 Dynamic Robotics (dynamicrobotics53.com)
+
+LICENSE — PROPRIETARY / COMMERCIAL
+
+1. This software is licensed, not sold. The purchaser receives a
+   non-exclusive, non-transferable license to install and use
+   JARVIS 53 on machines they personally control.
+
+2. UNAUTHORIZED REDISTRIBUTION of this package or its source, in
+   whole or in part, is prohibited without written permission from
+   Dynamic Robotics. Resellers must operate under a distribution
+   agreement.
+
+3. The name "JARVIS 53", the reactor marks and associated trade
+   dress remain the property of Dynamic Robotics.
+
+4. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHORS OR
+   COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+5. Automation tools can affect your operating system. Risk-tiered
+   confirmations are built in; review every approval you grant.
+
+Contact: support@dynamicrobotics53.com
